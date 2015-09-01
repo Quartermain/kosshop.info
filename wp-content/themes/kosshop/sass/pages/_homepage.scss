@@ -1,0 +1,96 @@
+body #header-outer.transparent[data-transparent-header="true"] {
+	border-bottom: none !important;
+}
+body #header-outer.transparent[data-transparent-header="true"] .cart-menu {
+	border-left: none;
+}
+
+// Product home
+
+.product-home .woocommerce ul.cart_list li img, 
+.product-home .woocommerce ul.product_list_widget li img {
+	width: auto;
+	float: none;
+}
+
+.product-home .woocommerce .product_list_widget {
+	margin: 0 -percentage(10/1056);
+}
+
+.product-home .product_list_widget {
+	@include clearfix();
+}
+
+.product-home #sidebar .woocommerce ul.cart_list li, 
+.product-home #sidebar .woocommerce ul.product_list_widget li {
+	width: percentage(240/1056);
+	margin: 0 percentage(10/1056) percentage(20/1056);
+	float: left;
+	border-bottom: none !important;
+	&:first-child {
+		padding: 8px 0px;
+	}
+}
+
+.woocommerce ul.product_list_widget li img,
+.product-wrap img,
+.product-category img{
+	border: solid 1px $c-black;
+}
+
+.woocommerce ul.product_list_widget li:hover img,
+.product-wrap a:hover img,
+.product-category a:hover img{
+	border: solid 1px $c-red;
+}
+
+.product-home .woocommerce .product_list_widget a,
+.product-home .woocommerce .product_list_widget span,
+.product-home .woocommerce .product_list_widget {
+	font-size: $font-size-base !important;
+}
+
+.product-home .woocommerce .product_list_widget .product-title{
+	height: 45px;
+	overflow: hidden;
+	display: block;
+	line-height: 20px;
+}
+
+.product-home .woocommerce .product_list_widget {
+	.amount {
+		font-size: $font-size-base +2 !important;
+	}
+	del,
+	ins {
+		display: block;
+	}
+}
+
+.amount {
+	font-size: $font-size-base +2;
+	font-weight: $font-weight-bold;
+}
+ins {
+	.amount {
+		color: $c-red;
+	}
+}
+
+.product-home #sidebar .woocommerce h4{
+	text-align: center;
+	font-size: $font-size-base + 10;
+	color: $c-red;
+}
+
+
+ul.products li.product-category {
+	h3 {
+		font-size: $font-size-base + 12 !important;
+		text-align: center;
+	}
+}
+
+.woocommerce .cart .quantity input.qty {
+	border: solid 1px $c-text-input !important;
+}

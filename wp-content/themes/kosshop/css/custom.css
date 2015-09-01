@@ -1,0 +1,113 @@
+/* line 1, ../sass/pages/_homepage.scss */
+body #header-outer.transparent[data-transparent-header="true"] {
+  border-bottom: none !important;
+}
+
+/* line 4, ../sass/pages/_homepage.scss */
+body #header-outer.transparent[data-transparent-header="true"] .cart-menu {
+  border-left: none;
+}
+
+/* line 10, ../sass/pages/_homepage.scss */
+.product-home .woocommerce ul.cart_list li img,
+.product-home .woocommerce ul.product_list_widget li img {
+  width: auto;
+  float: none;
+}
+
+/* line 16, ../sass/pages/_homepage.scss */
+.product-home .woocommerce .product_list_widget {
+  margin: 0 -percentage(10/1056);
+}
+
+/* line 14, ../sass/bootstrap/mixins/_clearfix.scss */
+.product-home .product_list_widget:before, .product-home .product_list_widget:after {
+  content: " ";
+  display: table;
+}
+/* line 19, ../sass/bootstrap/mixins/_clearfix.scss */
+.product-home .product_list_widget:after {
+  clear: both;
+}
+
+/* line 24, ../sass/pages/_homepage.scss */
+.product-home #sidebar .woocommerce ul.cart_list li,
+.product-home #sidebar .woocommerce ul.product_list_widget li {
+  width: 22.72727%;
+  margin: 0 0.94697% 1.89394%;
+  float: left;
+  border-bottom: none !important;
+}
+/* line 30, ../sass/pages/_homepage.scss */
+.product-home #sidebar .woocommerce ul.cart_list li:first-child,
+.product-home #sidebar .woocommerce ul.product_list_widget li:first-child {
+  padding: 8px 0px;
+}
+
+/* line 35, ../sass/pages/_homepage.scss */
+.woocommerce ul.product_list_widget li img,
+.product-wrap img,
+.product-category img {
+  border: solid 1px #000;
+}
+
+/* line 41, ../sass/pages/_homepage.scss */
+.woocommerce ul.product_list_widget li:hover img,
+.product-wrap a:hover img,
+.product-category a:hover img {
+  border: solid 1px #ed1c24;
+}
+
+/* line 47, ../sass/pages/_homepage.scss */
+.product-home .woocommerce .product_list_widget a,
+.product-home .woocommerce .product_list_widget span,
+.product-home .woocommerce .product_list_widget {
+  font-size: 14px !important;
+}
+
+/* line 53, ../sass/pages/_homepage.scss */
+.product-home .woocommerce .product_list_widget .product-title {
+  height: 45px;
+  overflow: hidden;
+  display: block;
+  line-height: 20px;
+}
+
+/* line 61, ../sass/pages/_homepage.scss */
+.product-home .woocommerce .product_list_widget .amount {
+  font-size: 16px !important;
+}
+/* line 64, ../sass/pages/_homepage.scss */
+.product-home .woocommerce .product_list_widget del,
+.product-home .woocommerce .product_list_widget ins {
+  display: block;
+}
+
+/* line 70, ../sass/pages/_homepage.scss */
+.amount {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* line 75, ../sass/pages/_homepage.scss */
+ins .amount {
+  color: #ed1c24;
+}
+
+/* line 80, ../sass/pages/_homepage.scss */
+.product-home #sidebar .woocommerce h4 {
+  text-align: center;
+  font-size: 24px;
+  color: #ed1c24;
+}
+
+/* line 88, ../sass/pages/_homepage.scss */
+ul.products li.product-category h3 {
+  font-size: 26px !important;
+  text-align: center;
+}
+
+/* line 94, ../sass/pages/_homepage.scss */
+.woocommerce .cart .quantity input.qty {
+  border: solid 1px #999 !important;
+}
