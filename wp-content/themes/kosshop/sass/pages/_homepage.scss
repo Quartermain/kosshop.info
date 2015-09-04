@@ -11,6 +11,7 @@ body #header-outer.transparent[data-transparent-header="true"] .cart-menu {
 .product-home .woocommerce ul.product_list_widget li img {
 	width: auto;
 	float: none;
+	margin-left: 0;
 }
 
 .product-home .woocommerce .product_list_widget {
@@ -29,6 +30,9 @@ body #header-outer.transparent[data-transparent-header="true"] .cart-menu {
 	border-bottom: none !important;
 	&:first-child {
 		padding: 8px 0px;
+	}
+	a:hover .product-title {
+		color: $c-red;
 	}
 }
 
@@ -93,4 +97,101 @@ ul.products li.product-category {
 
 .woocommerce .cart .quantity input.qty {
 	border: solid 1px $c-text-input !important;
+}
+
+.product-home .woocommerce .product_list_widget ins {
+	text-decoration: none;
+}
+
+#footer-outer .widget h4 {
+	color: $c-gray-light;
+	font-size: $font-size-base + 4;
+	font-family: $font-family-base;
+}
+
+ul.products li.product-category h3 {
+	text-transform: uppercase !important;
+}
+
+.woocommerce-cart table.cart td.actions .coupon .input-text {
+	padding: 6px 6px 5px !important;
+}
+
+.wpcf7-form-control-wrap span.wpcf7-not-valid-tip {
+	color: $c-red !important;
+}
+
+#sidebar.span_3 {
+	h4 {
+		color: $gray-dark;
+		font-size: $font-size-base + 2;
+	}
+	.product-categories {
+		.cat-item {
+			a {
+				text-transform: capitalize;
+			}
+		}
+	}
+	.woocommerce {
+		li {
+			a{
+				padding-left: 15px;
+				position: relative;
+				&:after {
+					content: ">";
+					position: absolute;
+					left: 0;
+				}
+				&:hover {
+					color: $c-red;
+				}
+			}
+			span.count {
+				display: none;
+			}
+		}
+	}
+}
+
+// Shopping cart
+// 
+
+.woocommerce .cart-collaterals .cart_totals {
+	float: right !important;
+	table {
+		width: 100%;
+		tr {
+			th {
+				width: 50%;
+				font-size: $font-size-base + 2;
+				font-weight: 700;
+			}
+		}
+	}
+}
+
+.woocommerce a.button:hover, .woocommerce-page a.button:hover {
+	color: $c-red;
+}
+
+.woocommerce input.button:hover, 
+.woocommerce-page input.button:hover,
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover {
+ 	background: $c-red !important;
+ 	color: $c-white !important;
+}
+
+
+// Footer
+
+
+.support {
+	.title-support {
+		text-transform: uppercase;
+		margin-bottom: 10px;
+	}
 }

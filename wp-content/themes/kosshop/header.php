@@ -28,6 +28,9 @@
 
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/custom.css" type="text/css" media="screen" />
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
 <!-- End new css change -->
 
 </head>

@@ -20,7 +20,6 @@ $c-brow:				#7c6847;
 $c-blue:				#468dc8;
 $c-blue-light:			#73b0d0;
 $c-yellow:				#f0a910;
-$c-red:					#c80000;
 
 $c-border-input:		#ccc;
 $c-text-input:			#999;
@@ -88,9 +87,10 @@ $link-hover-decoration: underline !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "'Roboto Condensed", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:  Arial, sans-serif !default;
 $font-family-serif:       "Roboto", "Times New Roman", Times, serif !default;
 $font-family-opensans:    'Open Sans', sans-serif !default;
+
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
