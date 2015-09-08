@@ -14,13 +14,26 @@ if (!function_exists('loop_columns')) {
 	}
 }
 
+// function Breadcrumb
+
+add_filter( 'woocommerce_breadcrumb_defaults', 'jk_woocommerce_breadcrumbs' );
+function jk_woocommerce_breadcrumbs() {
+    return array(
+            'delimiter'   => ' <i class="fa fa-angle-right"></i> ',
+            'home'        => 'Trang chủ',
+        );
+}
 ?>
+
+<!-- function breadcrumb -->
+
+
 <div class="container-wrap">
 	
 	<div class="container main-content">
 		
 		<div class="row">
-			
+
 			<?php
 			
 			$options = get_option('salient'); 
@@ -37,6 +50,11 @@ if (!function_exists('loop_columns')) {
 				
 				switch($single_product_layout) {
 					case 'no-sidebar':
+						// breadcrumb
+						echo '<div class="woocommerce-breadcrumb"> ';
+							woocommerce_breadcrumb();
+						echo '</div>';
+
 						woocommerce_content(); 
 						break; 
 					case 'right-sidebar':
@@ -46,6 +64,12 @@ if (!function_exists('loop_columns')) {
 						echo '</div><!--/span_9-->';
 						
 						echo '<div id="sidebar" class="col span_3 col_last">';
+
+						// breadcrumb
+						echo '<div class="woocommerce-breadcrumb"> ';
+							woocommerce_breadcrumb();
+						echo '</div>';
+
 							get_sidebar(); 
 						echo '</div><!--/span_9-->';
 
@@ -57,6 +81,12 @@ if (!function_exists('loop_columns')) {
 						echo '</div><!--/span_9-->';
 						
 						echo '<div id="post-area" class="col span_9 col_last">';
+
+						// breadcrumb
+						echo '<div class="woocommerce-breadcrumb"> ';
+							woocommerce_breadcrumb();
+						echo '</div>';
+
 							woocommerce_content(); 
 						echo '</div><!--/span_9-->';
 						
@@ -77,11 +107,13 @@ if (!function_exists('loop_columns')) {
 				
 				switch($main_shop_layout) {
 					case 'no-sidebar':
+						wcb_show_category_banner();
 						woocommerce_content(); 
 						break; 
 					case 'right-sidebar':
 
 						echo '<div id="post-area" class="col span_9">';
+							wcb_show_category_banner();
 							woocommerce_content(); 
 						echo '</div><!--/span_9-->';
 						
@@ -92,16 +124,17 @@ if (!function_exists('loop_columns')) {
 						break; 
 						
 					case 'left-sidebar':
+
 						echo '<div id="sidebar" class="col span_3">';
 						 	get_sidebar(); 
 						echo '</div><!--/span_9-->';
 						
 						echo '<div id="post-area" class="col span_9 col_last">';
+							wcb_show_category_banner();
 							woocommerce_content(); 
 						echo '</div><!--/span_9-->';
 						break; 
-					default: 
-						woocommerce_content(); 
+					default:
 						break; 
 				}
 

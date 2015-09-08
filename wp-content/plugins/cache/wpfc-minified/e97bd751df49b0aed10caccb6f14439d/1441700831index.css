@@ -1,0 +1,124 @@
+body #header-outer.transparent[data-transparent-header="true"] {
+border-bottom: none !important;
+} body #header-outer.transparent[data-transparent-header="true"] .cart-menu {
+border-left: none;
+} .product-home .woocommerce ul.cart_list li img,
+.product-home .woocommerce ul.product_list_widget li img {
+width: auto;
+float: none;
+margin-left: 0;
+} .product-home .woocommerce .product_list_widget {
+margin: 0 -percentage(10/1056);
+} .product-home .product_list_widget:before, .product-home .product_list_widget:after {
+content: " ";
+display: table;
+} .product-home .product_list_widget:after {
+clear: both;
+} .product-home #sidebar .woocommerce ul.cart_list li,
+.product-home #sidebar .woocommerce ul.product_list_widget li {
+width: 22.72727%;
+margin: 0 0.94697% 1.89394%;
+float: left;
+border-bottom: none !important;
+} .product-home #sidebar .woocommerce ul.cart_list li:first-child,
+.product-home #sidebar .woocommerce ul.product_list_widget li:first-child {
+padding: 8px 0px;
+} .product-home #sidebar .woocommerce ul.cart_list li a:hover .product-title,
+.product-home #sidebar .woocommerce ul.product_list_widget li a:hover .product-title {
+color: #ed1c24;
+} .woocommerce ul.product_list_widget li img,
+.product-wrap img,
+.product-category img {
+border: solid 1px #000;
+} .woocommerce ul.product_list_widget li:hover img,
+.product-wrap a:hover img,
+.product-category a:hover img {
+border: solid 1px #ed1c24;
+} .product-home .woocommerce .product_list_widget a,
+.product-home .woocommerce .product_list_widget span,
+.product-home .woocommerce .product_list_widget {
+font-size: 14px !important;
+} .product-home .woocommerce .product_list_widget .product-title {
+height: 45px;
+overflow: hidden;
+display: block;
+line-height: 20px;
+} .product-home .woocommerce .product_list_widget .amount {
+font-size: 16px !important;
+} .product-home .woocommerce .product_list_widget del,
+.product-home .woocommerce .product_list_widget ins {
+display: block;
+} .amount {
+font-size: 16px;
+font-weight: 700;
+} ins .amount {
+color: #ed1c24;
+} .product-home #sidebar .woocommerce h4 {
+text-align: center;
+font-size: 24px;
+color: #ed1c24;
+} ul.products li.product-category h3 {
+font-size: 26px !important;
+text-align: center;
+} .woocommerce .cart .quantity input.qty {
+border: solid 1px #999 !important;
+} .product-home .woocommerce .product_list_widget ins {
+text-decoration: none;
+} #footer-outer .widget h4 {
+color: #c5c5c5;
+font-size: 18px;
+font-family: Arial, sans-serif;
+} ul.products li.product-category h3 {
+text-transform: uppercase !important;
+} .woocommerce-cart table.cart td.actions .coupon .input-text {
+padding: 6px 6px 5px !important;
+} .wpcf7-form-control-wrap span.wpcf7-not-valid-tip {
+color: #ed1c24 !important;
+} #sidebar.span_3 h4 {
+color: #333333;
+font-size: 16px;
+} #sidebar.span_3 .product-categories .cat-item a {
+text-transform: capitalize;
+} #sidebar.span_3 .woocommerce li a {
+padding-left: 15px;
+position: relative;
+} #sidebar.span_3 .woocommerce li a:after {
+content: ">";
+position: absolute;
+left: 0;
+} #sidebar.span_3 .woocommerce li a:hover {
+color: #ed1c24;
+} #sidebar.span_3 .woocommerce li span.count {
+display: none;
+} .woocommerce .cart-collaterals .cart_totals {
+float: right !important;
+} .woocommerce .cart-collaterals .cart_totals table {
+width: 100%;
+} .woocommerce .cart-collaterals .cart_totals table tr th {
+width: 50%;
+font-size: 16px;
+font-weight: 700;
+} .woocommerce a.button:hover,
+.woocommerce-page a.button:hover,
+article.post .post-header h2 a:hover,
+#sidebar div ul li a:hover {
+color: #ed1c24;
+} .woocommerce input.button:hover,
+.woocommerce-page input.button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+background: #ed1c24 !important;
+color: #fff !important;
+} .woocommerce .woocommerce-ordering {
+position: static;
+margin-bottom: 20px !important;
+} html .woocommerce .woocommerce-message {
+background: #468dc8 !important;
+} .support .title-support {
+text-transform: uppercase;
+margin-bottom: 10px;
+} #footer-outer a:hover {
+color: #9c9c9c !important;
+}
