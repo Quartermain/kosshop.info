@@ -1,4 +1,8 @@
 <?php
+
+define( 'WP_CONTENT_DIR', 'D:\Xampp\htdocs\kosshop.info/kosshop-content' ); // Do not remove. Removing this line could break your site. Added by Security > Settings > Change Content Directory.
+define( 'WP_CONTENT_URL', 'http://localhost/kosshop.info/kosshop-content' ); // Do not remove. Removing this line could break your site. Added by Security > Settings > Change Content Directory.
+
 /**
  * The base configurations of the WordPress.
  *
@@ -59,7 +63,7 @@ define('NONCE_SALT',       'W-C(H|9SHv|g+#|cg,-E&7G=mb7TTK*l<JbT7c|4F]z^{n4rw+?y
  * You can have multiple installations in one database if you give each a unique
  * prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'uvhbekj1_';
 
 /**
  * For developers: WordPress debugging mode.
