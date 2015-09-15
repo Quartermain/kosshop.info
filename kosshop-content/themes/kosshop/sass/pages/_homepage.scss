@@ -26,7 +26,10 @@ body #header-outer.transparent[data-transparent-header="true"] .cart-menu {
 .product-home #sidebar .woocommerce ul.product_list_widget li {
 	width: percentage(240/1056);
 	margin: 0 percentage(10/1056) percentage(20/1056);
-
+	@media (max-width: 768px) {
+		width: percentage(505/1056);
+		margin: 0 percentage(10/1056) percentage(10/1056);
+	}
 	float: left;
 	border-bottom: none !important;
 	&:first-child {
