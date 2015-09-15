@@ -30,8 +30,8 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-
 <!-- End new css change -->
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/custom-script.js"></script>
 
 </head>
 
