@@ -1,7 +1,7 @@
 <?php
 
-define( 'WP_CONTENT_DIR', 'D:\Xampp\htdocs\kosshop.info/kosshop-content' ); // Do not remove. Removing this line could break your site. Added by Security > Settings > Change Content Directory.
-define( 'WP_CONTENT_URL', 'http://localhost/kosshop.info/kosshop-content' ); // Do not remove. Removing this line could break your site. Added by Security > Settings > Change Content Directory.
+define( 'WP_CONTENT_DIR', '/var/www/html/kosshop.info/kosshop-content' ); // Do not remove. Removing this line could break your site. Added by Security > Settings > Change Content Directory.
+define( 'WP_CONTENT_URL', 'http://kosshop.info/kosshop-content' ); // Do not remove. Removing this line could break your site. Added by Security > Settings > Change Content Directory.
 
 /**
  * The base configurations of the WordPress.
@@ -20,13 +20,13 @@ define( 'WP_CONTENT_URL', 'http://localhost/kosshop.info/kosshop-content' ); // 
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'kosshop.info');
+define('DB_NAME', 'kosshop');
 
 /** MySQL database username */
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'khanhtam');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
