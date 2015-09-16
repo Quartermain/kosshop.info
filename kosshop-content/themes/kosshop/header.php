@@ -32,7 +32,7 @@
 
 <!-- End new css change -->
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/custom-script.js"></script>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <?php
